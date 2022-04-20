@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+header{
+    background: url(https://wallpapercave.com/wp/4Hx2x7K.jpg);
+    height:400px    ;
+    width:100%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.headercont h1{
+    margin-left: 350px;
+    padding: 30px;
+    text-align: left;
+    color:#fff;
+    font-size: 100px;
+
+}
+
+
+.headercont h1 span{
+    color: #f00;
+}
+
+nav{
+    background-color: #7c7673;
+    padding: 15px;
+}
+
+nav a{
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+/*BODY*/
+body{
+    background: #e2e2e2;
+}
+
+.contenedor{
+    padding: 15px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    margin: 5px;
+    border: 2px solid #000;
+    box-shadow: 10px 5px 5px #2f1500;
+}
+
+img:hover{
+    box-shadow: 10px 5px 5px #7c7673;
+}
+.row{
+    display: flex;
+    padding: 10px ;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 10px;
+}
+
+.column img{
+    margin-top: 15px;
+}
+
+/*Footer*/
+footer{
+    background-color: #2f1500;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.contFooter{
+    text-align: end;
+}
+
+footer p a{
+
+    color: #f00;
+    text-decoration: none;
+
+}
+
+
+footer p a:hover{
+
+    text-decoration: underline;
+
+}

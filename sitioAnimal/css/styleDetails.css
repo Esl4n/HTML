@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+header{
+    background: url(https://wallpapercave.com/wp/4Hx2x7K.jpg);
+    height:400px    ;
+    width:100%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.headercont h1{
+    margin-left: 320px;
+    padding: 30px;
+    text-align: left;
+    color:#fff;
+    font-size: 100px;
+
+}
+
+
+.headercont h1 span{
+    color: #f00;
+}
+
+nav{
+    background-color: #7c7673;
+    padding: 15px;
+}
+
+nav a{
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*Body*/
+body{
+    background: #e2e2e2;
+}
+
+.contenedor{
+    text-align: left;
+    padding: 120px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.contenedor p{
+    margin-bottom: 30px;
+}
+
+.contenedor p span{
+    color:rgb(177, 37, 37) ;
+}
+
+.lista ul li {
+    margin-top: 20px;
+}
+.lista{
+    margin-right: 400px;
+}
+
+.lista ul li span{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+
+#fondo{
+    background: #7c7673;
+}
+
+
+.texto{
+    color: rgb(177, 37, 37);
+    margin-bottom: 25px;
+}
+
+.contenedor table{
+    float: right;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+.contenedor table td{
+    border: 1px solid #000;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #2f1500;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.contFooter{
+    text-align: end;
+}
+
+footer p a{
+
+    color: #f00;
+    text-decoration: none;
+
+}
+
+
+footer p a:hover{
+
+    text-decoration: underline;
+
+}
+
+/*IMG*/
+
+img{
+    float: right;
+    width: 500px;
+}
+
+#comida{
+    margin-left: 100px;
+    width: 400px;
+    border: 2px solid #000;
+}
