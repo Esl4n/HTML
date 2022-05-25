@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/1138/1138847.png" type="image/x-icon">
+    <script src="js/init.js"></script>
+</head>
+<body>
+    <div class="titulo">
+        <h1><img title="img" class="portada" src="https://cdn-icons-png.flaticon.com/128/1138/1138847.png">Formulary</h1>
+    </div>
+    <div class="all-content">
+        <h2><img title="img" src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Obligatory field</h2>
+        <div class="content">
+            <div class="content-form" onsubmit="return validation()">
+                <h3>Basic Info</h3>
+                <form >
+                    <p>
+                        <label class="title" for="Email"><img title="img" src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Email</label>
+                        <input type="text" name="Email" id="Email" placeholder="name@email.com">
+                        <label id="msj-email" class="msj">
+                    </p>
+                    <p>
+                        <label class="title" for="name">User Name</label>
+                        <input type="text" name="name" id="name" placeholder="Insert your user name">
+                    </p>
+                    <p>
+                        <label class="title" for="pass"><img src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Password</label>
+                        <input type="password" name="pass" id="pass" placeholder="pass 3-6">
+                        <label id="msj-pass" class="msj"></label>
+                    </p>
+                    <p>
+                        <label class="title" for="confirm-pass"><img src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Confirm Password</label>
+                        <input type="password" name="confirm-pass" id="confirm-pass" placeholder="repeat pass">
+                        <label id="msj-confirm" class="msj"></label>
+                    </p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p>
+                        <img class="Img-form" src="http://pngimg.com/uploads/pacman/pacman_PNG88.png"><img class="Img-form" src="https://cdn-icons-png.flaticon.com/128/744/744067.png">
+                    </p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p>
+                        <button  type="submit">Send</button>
+                        <label id="msj-phones" class="msj"></label>
+                    </p>
+                </form>
+            </div>
+            <div class="content-info">
+                <h3>Personal Info</h3>
+                <form>
+                    <p>
+                        <label class="title" for="postal"><img src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Postal address</label>
+                        <input type="number" name="postal" id="postal" placeholder="Insert postal address(1234567)">
+                        <label id="msj-post" class="msj"></label>
+                        
+                    </p>
+                    <p>
+                        <label class="title" for="address"><img src="https://cdn-icons-png.flaticon.com/128/705/705891.png">Address</label>
+                        <input name="address" id="address" placeholder="Insert address">
+                        <label id="msj-address" class="msj"></label>
+                    </p>
+                    <p>
+                        <label for="referenci" class="title">Referenci</label>
+                        <input name="referenci" id="referenci" placeholder="Insert referenci">
+                    </p>
+                    <p>
+                        <label for="city"  class="title"><img src="https://cdn-icons-png.flaticon.com/128/705/705891.png">City or Town</label>
+                        <input name="city" id="city" placeholder="Insert your city or town">
+                        <label id="msj-city" class="msj"></label>
+                    </p>
+                    <p>
+                        <label for="" class="title">Commune</label>
+                        <label id="select-contenedor"></label>
+                        <label id="msj-select" class="msj"></label>
+                    </p>
+                    <p>
+                        <label class="title" for="phone">Number Phone</label>
+                        <input type="number" name="phone" id="phone" placeholder="123456789">
+                    </p>
+                    <p>
+                        <label class="title" for="mobile">Number Cell phone </label>
+                        <input type="number" name="mobile" id="mobile" placeholder="12345678">
+                    </p>
+                    <p>
+
+                    </p>
+                    <ul id="cheks">
+                        <label class="title">Habits: </label>
+
+                        <li>
+                            <input id="bailar" type="checkbox">
+                            <label for="bailar" class="title">Bailar</label>
+
+                                
+                        </li>
+                        <li>
+                            <input id="programar" type="checkbox">
+                            <label for="programar" class="title">Programar</label>
+
+                        </li>
+                        <li>
+                            <input id="juegos" type="checkbox">
+                            <label for="juegos" class="title">VideoJuegos</label>
+
+                        </li>
+                    </ul>
+                    <ul>
+                        <br>
+                        <li>
+                            <input id="deportes" type="checkbox">
+                            <label for="deportes" class="title">Deportes</label>
+
+                        </li>
+                        <li>
+                            <input id="actuar" type="checkbox">
+                            <label for="actuar" class="title">Actuar</label>
+
+                        </li>
+                        <li>
+                            <input id="cantar" type="checkbox">
+                            <label class="title" for="cantar">Cantar</label>
+
+                        </li>
+                    </ul>
+                </form>
+            </div> 
+        </div>      
+    </div>
+    <div class="footer">
+        <div class="datos">
+            <h3><span>&copy;</span>Dilan Gonzalez</h3>
+            <h3><span>Phone:</span>+56950419879</h3>
+        </div>    
+    </div>   
+</body>
+<script src="js/data.js"></script>
+</html>
